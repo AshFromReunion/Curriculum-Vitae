@@ -1,0 +1,40 @@
+            $color-principale: #CCC;
+            $color-background: white;
+            $marge: 15px;
+            $margin-information: 70px;
+            $marge-li: 5px;
+            $degrade: linear-gradient(white, $color-principale);
+            /* */
+            
+            img,
+            .information ul {
+                margin-bottom: $margin-information;
+            }
+            
+            h2 {
+                background-color: $color-principale;
+                text-align: center;
+                margin: 0 0 30px 0;
+            }
+            
+            h3 {
+                font-size: $marge;
+                margin: 0;
+                font-weight: bold;
+            }
+            
+            .information {
+                background: $degrade;
+                margin-top: $marge;
+            }
+            
+            .information-detaille {
+                background-color: white;
+            }
+            
+            .information-detaille ul {
+                margin: 0 0 $marge 0;
+                li {
+                    margin: $marge-li;
+                }
+            }

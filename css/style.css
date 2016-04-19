@@ -1,0 +1,28 @@
+/* */
+img,
+.information ul {
+  margin-bottom: 70px; }
+
+h2 {
+  background-color: #CCC;
+  text-align: center;
+  margin: 0 0 30px 0; }
+
+h3 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold; }
+
+.information {
+  background: linear-gradient(white, #CCC);
+  margin-top: 15px; }
+
+.information-detaille {
+  background-color: white; }
+
+.information-detaille ul {
+  margin: 0 0 15px 0; }
+  .information-detaille ul li {
+    margin: 5px; }
+
+/*# sourceMappingURL=style.css.map */
