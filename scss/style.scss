@@ -6,6 +6,10 @@
             $degrade: linear-gradient(white, $color-principale);
             /* */
             
+            body {
+                color: black;
+            }
+            
             img,
             .information ul {
                 margin-bottom: $margin-information;
@@ -36,5 +40,20 @@
                 margin: 0 0 $marge 0;
                 li {
                     margin: $marge-li;
+                }
+            }
+            
+            @mixin transition($transition...) {
+                -moz-transition: $transition;
+                -o-transition: $transition;
+                -webkit-transition: $transition;
+                transition: $transition;
+            }
+            
+            a {
+                color: black;
+                @include transition(color 1.5s ease-in-out, border-width 1s ease-in-out);
+                &:hover {
+                    color: grey;
                 }
             }

@@ -1,4 +1,7 @@
 /* */
+body {
+  color: black; }
+
 img,
 .information ul {
   margin-bottom: 70px; }
@@ -24,5 +27,14 @@ h3 {
   margin: 0 0 15px 0; }
   .information-detaille ul li {
     margin: 5px; }
+
+a {
+  color: black;
+  -moz-transition: color 1.5s ease-in-out, border-width 1s ease-in-out;
+  -o-transition: color 1.5s ease-in-out, border-width 1s ease-in-out;
+  -webkit-transition: color 1.5s ease-in-out, border-width 1s ease-in-out;
+  transition: color 1.5s ease-in-out, border-width 1s ease-in-out; }
+  a:hover {
+    color: grey; }
 
 /*# sourceMappingURL=style.css.map */
